@@ -13,7 +13,7 @@ public class RegisterServlet extends HttpServlet {
     public void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String username = req.getParameter("username");
         String password = req.getParameter("password");
-        System.out.println("hello sineka");
+        System.out.println("hello sineka , Where is laks?");
     }
 
 }
